@@ -1,0 +1,19 @@
+:root {
+    --background: #0a0512;
+    --font: #fff;
+    --roxo: #6722DC;
+    --roxohover: #541db3;
+}
+
+* {
+    margin: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--font);
+    font-family: 'Cera Round Pro', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}

@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 15vw;
+    user-select: none;
+}
+
+.image img {
+    width: 100%;
+}
+
+.header nav {
+    display: flex;
+    column-gap: 50px;
+}
+
+.header nav > a {
+    color: var(--font);
+    text-decoration: none;
+    background-color: var(--roxo);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+.header nav > a:hover,
+.content a:hover {
+    background-color: var(--roxohover);
+    transition: .3s;
+}
+
+.header nav > button {
+    background: none;
+    border: none;
+    color: var(--font);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    margin: 100px 50px 0px 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0px;
+}
+
+.content span {
+    color: var(--roxo);
+}
+
+.content p {
+    max-width: 80%;
+    font-size: 1.2rem;
+    color: lightgray;
+}
+
+.content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    column-gap: 3px;
+    color: var(--font);
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: var(--roxo);
+    max-width: 170px;
+    padding: 10px 0px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.ico {
+    margin-top: 3px;
+}
+
+.anim {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

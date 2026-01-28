@@ -1,5 +1,46 @@
-* {
-    margin: none;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cera Round Pro Regular'), url('./assets/fonts/TypeMates  CeraRoundProRegular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Cera Round Pro Thin'), url('./assets/fonts/TypeMates  CeraRoundProThin.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Cera Round Pro Light'), url('./assets/fonts/TypeMates  CeraRoundProLight.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Cera Round Pro Medium'), url('./assets/fonts/TypeMates  CeraRoundProMedium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cera Round Pro Bold'), url('./assets/fonts/TypeMates  Cera Round Pro Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Cera Round Pro Black'), url('./assets/fonts/TypeMates  CeraRoundProBlack.woff') format('woff');
 }
